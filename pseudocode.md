@@ -8,6 +8,10 @@
         *Offsets coldWater variable by one
         *Used to kill bacteria on hands, and make sure water is at a comfortable level before placing hands in.
         *May require time to warm up
+    3. **soapOnHands**
+        *Essential for making sure hands are clean
+        *In the program can be incremented or decremented to indicate whether the program needs to keep running or not.
+    
 
 **BEGIN**
  **INCREMENT** coldWater by 1
