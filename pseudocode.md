@@ -18,7 +18,13 @@
 
 **Preparation Phase**
 
-    FUNCTION
+    FUNCTION setHotWater:
+        IF hotWater < 2 
+            THEN
+                INCREMENT hotWater by 1 UNTIL hotWater === 2
+                    END
+
+    FUNCTION                
 
 **BEGIN**
  **INCREMENT** coldWater by 1
