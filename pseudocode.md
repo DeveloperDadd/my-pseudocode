@@ -1,6 +1,6 @@
-#Pseudocode for Washing Your Hands#
+# Pseudocode for Washing Your Hands #
 
-##INIT: Create variables for the program##
+## INIT: Create variables for the program ##
     1. **coldWater**
         *Offsets hotWater variable by one
         *Used to make sure hotWater does not reach a temperature too hot for placing hands in
@@ -15,7 +15,7 @@
         *Required to dry hands off    
             
 
-##Functionality##
+## Functionality ##
 
 **Preparation Phase**
 
