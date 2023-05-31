@@ -1,8 +1,9 @@
 #Pseudocode for Washing Your Hands#
 **BEGIN**
- **INCREMENT** Cold water by 1
- **INCREMENT** Hot water by 2
- **IF** Water is hot/warm **INPUT** hands
- **WHILE** Water is on **INCREMENT** soap on hands by 2 pumps
- **IF** Hot water - Cold Water = 1 && Soap on hands === 2 **THEN** Rinse soap off hands
+ **INCREMENT** coldWater by 1
+ **INCREMENT** hotWater by 2
+ **IF** hotWater - coldWater === 1 **INPUT** hands
+ **WHILE** Water is on **INCREMENT** soapOnHands by 2 pumps
+ **IF** hotWater - coldWater = 1 && soapOnHands === 2 **THEN DECREMENT** soapOnHands
+ **IF** 
 **END**
