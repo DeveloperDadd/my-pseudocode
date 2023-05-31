@@ -11,7 +11,8 @@
     3. **soapOnHands**
         *Essential for making sure hands are clean
         *In the program can be incremented or decremented to indicate whether the program needs to keep running or not.
-    
+    4. **paperTowel**
+        *Required to dry hands off        
 
 **BEGIN**
  **INCREMENT** coldWater by 1
