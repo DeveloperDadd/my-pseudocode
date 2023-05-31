@@ -44,12 +44,21 @@
     FUNCTION turnOffWater
         IF (soapOnHands === 0)
             DECREMENT hotWater until === 0
-            DECREMNT coldWater until === 0
+            DECREMENT coldWater until === 0
                 END
     
     FUNCTION dryHands   
-        IF
+        GET paperTowel  
+            THEN dry hands off
+                END
 
-**START**
+**START: start the program**
 
+    setHotwater()
+    setColdWater()
+    putSoapOnHands()
+    rinseHands()
+    turnOffWater()
+    dryHands()
+    
 **END**
