@@ -30,8 +30,15 @@
                 INCREMENT coldWater by 1 UNTIL coldWater === 1
                     END      
 
+    FUNCTION putSoapOnHands
+        IF hotWater === 2 && coldWater === 1
+            INCREMENT soapOnHands by 1
+                END
+
     FUNCTION rinseHands
-        WHILE (setHotWater === 2 && setHotWater >)                         
+        WHILE (setHotWater === 2 && coldWater === 1 && soapOnHands === 1)
+            INPUT hands into sink and begin rinsing soap off hands
+                END
 
 **BEGIN**
  **INCREMENT** coldWater by 1
