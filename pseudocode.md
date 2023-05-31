@@ -1,18 +1,18 @@
 # Pseudocode for Washing Your Hands #
 
 ## INIT: Create variables for the program ##
-    1. **coldWater**
-        *Offsets hotWater variable by one
-        *Used to make sure hotWater does not reach a temperature too hot for placing hands in
-    2. **hotWater**
-        *Offsets coldWater variable by one
-        *Used to kill bacteria on hands, and make sure water is at a comfortable level before placing hands in.
-        *May require time to warm up
-    3. **soapOnHands**
-        *Essential for making sure hands are clean
-        *In the program can be incremented or decremented to indicate whether the program needs to keep running or not.
-    4. **paperTowel**
-        *Required to dry hands off    
+    1. ** coldWater **
+        * Offsets hotWater variable by one
+        * Used to make sure hotWater does not reach a temperature too hot for placing hands in
+    2. ** hotWater **
+        * Offsets coldWater variable by one
+        * Used to kill bacteria on hands, and make sure water is at a comfortable level before placing hands in.
+        * May require time to warm up
+    3. ** soapOnHands **
+        * Essential for making sure hands are clean
+        * In the program can be incremented or decremented to indicate whether the program needs to keep running or not.
+    4. ** paperTowel **
+        * Required to dry hands off    
             
 
 ## Functionality ##
