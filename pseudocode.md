@@ -24,7 +24,14 @@
                 INCREMENT hotWater by 1 UNTIL hotWater === 2
                     END
 
-    FUNCTION                
+    FUNCTION setColdWater:
+        IF coldWater < 1
+            THEN
+                INCREMENT coldWater by 1 UNTIL coldWater === 1
+                    END      
+
+    FUNCTION rinseHands
+        WHILE (setHotWater === 2 && setHotWater >)                         
 
 **BEGIN**
  **INCREMENT** coldWater by 1
