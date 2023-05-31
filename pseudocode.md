@@ -36,8 +36,14 @@
                 END
 
     FUNCTION rinseHands
-        WHILE (setHotWater === 2 && coldWater === 1 && soapOnHands === 1)
+        WHILE (hotWater === 2 && coldWater === 1 && soapOnHands === 1)
             INPUT hands into sink and DECREMENT soapOnHands
+                END
+
+    FUNCTION turnOffWater
+        IF (soapOnHands === 0)
+            DECREMENT hotWater until === 0
+            DECREMNT coldWater until === 0
                 END
 
 **START**
