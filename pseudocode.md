@@ -12,7 +12,8 @@
         *Essential for making sure hands are clean
         *In the program can be incremented or decremented to indicate whether the program needs to keep running or not.
     4. **paperTowel**
-        *Required to dry hands off        
+        *Required to dry hands off    
+            
 
 ##Functionality##
 
@@ -45,6 +46,9 @@
             DECREMENT hotWater until === 0
             DECREMNT coldWater until === 0
                 END
+    
+    FUNCTION dryHands   
+        IF
 
 **START**
 
