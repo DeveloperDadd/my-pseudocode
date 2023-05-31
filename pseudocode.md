@@ -14,6 +14,12 @@
     4. **paperTowel**
         *Required to dry hands off        
 
+##Functionality##
+
+**Preparation Phase**
+
+    FUNCTION
+
 **BEGIN**
  **INCREMENT** coldWater by 1
  **INCREMENT** hotWater by 2
