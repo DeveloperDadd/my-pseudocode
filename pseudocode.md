@@ -4,6 +4,10 @@
     1. **coldWater**
         *Offsets hotWater variable by one
         *Used to make sure hotWater does not reach a temperature too hot for placing hands in
+    2. **hotWater**
+        *Offsets coldWater variable by one
+        *Used to kill bacteria on hands, and make sure water is at a comfortable level before placing hands in.
+        *May require time to warm up
 
 **BEGIN**
  **INCREMENT** coldWater by 1
