@@ -37,7 +37,7 @@
 
     FUNCTION rinseHands
         WHILE (setHotWater === 2 && coldWater === 1 && soapOnHands === 1)
-            INPUT hands into sink and begin rinsing soap off hands
+            INPUT hands into sink and DECREMENT soapOnHands
                 END
 
 **BEGIN**
